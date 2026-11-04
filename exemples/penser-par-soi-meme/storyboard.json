@@ -1,0 +1,104 @@
+{
+  "plans": [
+    {
+      "phrase": "Avant, quand tu avais une question, tu prenais le temps d'y penser.",
+      "modele": "ampoule",
+      "texte": [ { "t": "Avant,", "pos": "haut" }, { "t": "le temps d'y [penser.]", "pos": "bas" } ],
+      "declencheurs": { "allume": "penser." },
+      "intention": "Une ampoule en verre s'allume lentement, entourée de points d'interrogation : le temps de la réflexion."
+    },
+    {
+      "phrase": "Aujourd'hui, tu ouvres une application, et la réponse arrive en trois secondes.",
+      "modele": "telephone",
+      "texte": [ { "t": "Aujourd'hui,", "pos": "haut" }, { "t": "en trois [secondes.]", "pos": "bas" } ],
+      "options": { "question": "J’ai une question…" },
+      "declencheurs": { "question": "application,", "reponse": "réponse" },
+      "intention": "Un téléphone en verre : la question part, la réponse de l'IA tombe d'un coup, chrono « 3 s »."
+    },
+    {
+      "phrase": "C'est pratique, c'est rapide et c'est justement là que se cache le piège.",
+      "modele": "appat",
+      "texte": [ { "t": "C'est pratique, c'est rapide", "pos": "haut" }, { "t": "se cache le [piège.]", "pos": "bas" } ],
+      "options": { "appat": "Réponse rapide" },
+      "declencheurs": { "piege": "piège." },
+      "intention": "Un hameçon descend avec l'appât « Réponse rapide » ; la pointe étincelle sur « piège »."
+    },
+    {
+      "phrase": "Parce qu'une pensée qu'on ne fait plus soi-même, c'est un muscle qu'on n'entraîne plus.",
+      "modele": "cerveau",
+      "texte": [ { "t": "qu'une pensée", "pos": "haut" }, { "t": "c'est un [muscle]", "pos": "bas" } ],
+      "declencheurs": { "eteint": "n'entraîne" },
+      "intention": "Un cerveau en verre perd sa lumière ; la barre « ENTRAÎNEMENT » se vide."
+    },
+    {
+      "phrase": "On ne cherche plus, on valide.",
+      "modele": "recherche",
+      "texte": [ { "t": "On ne cherche plus,", "pos": "haut" }, { "t": "on [valide.]", "pos": "bas" } ],
+      "declencheurs": { "stop": "cherche", "clic": "valide." },
+      "intention": "La barre de recherche « Je cherche par moi-même » se fait barrer ; le curseur clique sur VALIDER."
+    },
+    {
+      "phrase": "On ne doute plus, on copie.",
+      "modele": "copier",
+      "texte": [ { "t": "On ne doute plus,", "pos": "haut" }, { "t": "on [copie.]", "pos": "bas" } ],
+      "declencheurs": { "copie": "copie." },
+      "intention": "Les touches Ctrl + C s'enfoncent : le texte de la « RÉPONSE » est collé tel quel dans « MON TEXTE »."
+    },
+    {
+      "phrase": "Et petit à petit, on oublie ce que ça fait d'avoir une idée à soi.",
+      "modele": "ampoule",
+      "texte": [ { "t": "petit à petit,", "pos": "haut" }, { "t": "une [idée] à soi.", "pos": "bas" } ],
+      "options": { "mode": "eteint" },
+      "declencheurs": { "eteint": "oublie" },
+      "intention": "L'ampoule du début vacille puis s'éteint : l'idée personnelle s'efface."
+    },
+    {
+      "phrase": "L'intelligence artificielle n'est pas le problème.",
+      "modele": "puce",
+      "texte": [ { "t": "L'intelligence artificielle", "pos": "haut" }, { "t": "n'est pas le [problème.]", "pos": "bas" } ],
+      "declencheurs": { "barre": "problème." },
+      "intention": "Une puce « IA » en verre, circuits lumineux ; un panneau d'alerte apparaît puis se fait barrer."
+    },
+    {
+      "phrase": "Le problème, c'est le moment où elle commence à penser à ta place.",
+      "modele": "siege",
+      "texte": [ { "t": "Le problème,", "pos": "haut" }, { "t": "penser à ta [place.]", "pos": "bas" } ],
+      "declencheurs": { "assis": "place." },
+      "intention": "Un petit robot arrive en sautillant et s'assoit sur le siège « TA PLACE »."
+    },
+    {
+      "phrase": "Alors fais l'inverse ! Pose-toi la question avant de la poser à la machine.",
+      "modele": "ordre",
+      "texte": [ { "t": "Alors fais [l'inverse]", "pos": "haut" }, { "t": "avant de la poser", "pos": "bas" } ],
+      "options": { "premier": "La machine", "second": "Toi" },
+      "declencheurs": { "inverse": "l'inverse" },
+      "intention": "Deux étapes « 1 · La machine » et « 2 · Toi » s'échangent : Toi passe en premier."
+    },
+    {
+      "phrase": "Écris ta première idée, même maladroite, même incomplète.",
+      "modele": "brouillon",
+      "texte": [ { "t": "ta première [idée,]", "pos": "haut" }, { "t": "même maladroite,", "pos": "bas" } ],
+      "intention": "Un carnet en verre « PREMIÈRE IDÉE » : un stylo écrit, rature un mot, continue."
+    },
+    {
+      "phrase": "Ensuite seulement, demande de l'aide pour aller plus loin.",
+      "modele": "relais",
+      "texte": [ { "t": "Ensuite [seulement,]", "pos": "haut" }, { "t": "pour aller plus loin.", "pos": "bas" } ],
+      "declencheurs": { "loin": "loin." },
+      "intention": "Une ligne part de « Toi », passe par la puce « IA », puis file vers « Plus loin »."
+    },
+    {
+      "phrase": "L'intelligence artificielle peut t'accompagner, mais elle ne peut pas penser pour toi.",
+      "modele": "texte-glisse",
+      "texte": [ { "t": "elle ne peut pas", "pos": "centre" }, { "t": "penser pour [toi.]", "pos": "centre2" } ],
+      "intention": "Respiration : le plan précédent recule, flou, la phrase clé glisse au centre."
+    },
+    {
+      "phrase": "Ta façon de voir le monde, personne ne peut la générer. Garde-la vivante !",
+      "modele": "monde",
+      "texte": [ { "t": "personne ne peut la générer.", "pos": "haut" }, { "t": "Garde-la [vivante]", "pos": "bas" } ],
+      "declencheurs": { "echec": "générer.", "vivant": "vivante" },
+      "intention": "Un globe en verre tourne ; le bouton « GÉNÉRER » échoue et se fait barrer ; le globe s'embrase sur « vivante »."
+    }
+  ]
+}
